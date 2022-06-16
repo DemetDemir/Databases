@@ -1,13 +1,13 @@
 import cx_Oracle
 
 dsn = cx_Oracle.makedsn("localhost", 1521, service_name="orcl")
-connection = cx_Oracle.connect(user="DEMET", password="brot", dsn=dsn,
+connection = cx_Oracle.connect(user="", password="", dsn=dsn,
                                encoding="UTF-8")
 
 
-username = 'DEMET'
-password = 'brot'
+username = ''
+password = ''
 dsn = dsn
-port = 1512
+port = 
 encoding = 'UTF-8'
 
